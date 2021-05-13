@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get install landscape-client
+sudo apt-get install landscape-client -y
 
 
 name=$(getent passwd $USER | cut -d : -f5 | cut -d, -f1)
